@@ -1,0 +1,15 @@
+Задача №2: создать БД, состоящую из одной таблицы 
+(информация об одногруппниках) с четырьмя полями 
+(добавить поле «Адрес»): id, name, age, address.
+
+CREATE TABLE CLASSMATE (
+id INTEGER PRIMARY KEY,
+name TEXT NOT NULL,
+age TEXT NOT NULL,
+address TEXT NOT NULL
+);
+
+INSERT INTO CLASSMATE VALUES (0001, 'Степан', '30', 'Узда');
+INSERT INTO CLASSMATE VALUES (0002, 'Матвей', '29', 'Тверь');
+INSERT INTO CLASSMATE VALUES (0003, 'Сергей', '26', 'Полоцк');
+INSERT INTO CLASSMATE VALUES (0004, 'Андрей', '34', 'Псков');
